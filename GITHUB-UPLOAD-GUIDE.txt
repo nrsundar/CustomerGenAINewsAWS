@@ -1,0 +1,45 @@
+CustomerGenAINews - GitHub Upload Checklist
+==========================================
+
+STEP 1: Download these files from your Replit project
+☐ README.md
+☐ LICENSE  
+☐ requirements-github.txt
+☐ .env.example
+☐ aws-deployment.yaml
+☐ DEPLOYMENT-GUIDE.md
+☐ Dockerfile
+☐ docker-compose.yml
+☐ main.py
+☐ enhanced_web_server.py
+☐ scraper.py
+☐ ai_processor.py
+☐ database.py
+☐ config.py
+☐ setup.py
+☐ scheduler.py
+☐ run_scheduler.py
+☐ live_monitor.py
+☐ company_manager.py
+☐ email_sender.py
+☐ sector_insights.py
+☐ storage.py
+☐ utils.py
+☐ companies.json
+☐ sector_insights.json
+
+STEP 2: Create these folders in your GitHub repo and upload files
+☐ docs/ folder → upload installation.md and deployment.md
+☐ scripts/ folder → upload setup.sh
+
+STEP 3: Upload root files directly to main repository folder
+
+EASY UPLOAD METHOD:
+1. In your GitHub repository, click "Add file" → "Upload files"
+2. Drag and drop all files OR click "choose your files"
+3. Write commit message: "Initial upload of CustomerGenAINews monitoring system"
+4. Click "Commit changes"
+
+DOWNLOAD FROM REPLIT:
+- Click any file in Replit file explorer
+- Right-click → "Download" OR use the three dots menu (⋯) → "Download"

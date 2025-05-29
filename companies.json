@@ -1,0 +1,542 @@
+[
+  {
+    "name": "JPMorgan Chase",
+    "sector": "Financial",
+    "websites": [
+      "https://www.jpmorganchase.com/news",
+      "https://www.jpmorgan.com/insights"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "digital banking"
+    ]
+  },
+  {
+    "name": "Bank of America",
+    "sector": "Financial",
+    "websites": [
+      "https://newsroom.bankofamerica.com",
+      "https://about.bankofamerica.com/en/making-an-impact"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "digital banking"
+    ]
+  },
+  {
+    "name": "Wells Fargo",
+    "sector": "Financial",
+    "websites": [
+      "https://newsroom.wf.com",
+      "https://www.wellsfargo.com/about/corporate-responsibility"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "digital banking"
+    ]
+  },
+  {
+    "name": "Goldman Sachs",
+    "sector": "Financial",
+    "websites": [
+      "https://www.goldmansachs.com/our-thinking",
+      "https://www.goldmansachs.com/media"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "algorithmic trading"
+    ]
+  },
+  {
+    "name": "Morgan Stanley",
+    "sector": "Financial",
+    "websites": [
+      "https://www.morganstanley.com/ideas",
+      "https://www.morganstanley.com/press-releases"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "wealth management"
+    ]
+  },
+  {
+    "name": "Citigroup",
+    "sector": "Financial",
+    "websites": [
+      "https://www.citigroup.com/global/news",
+      "https://www.citigroup.com/global/insights"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "digital banking"
+    ]
+  },
+  {
+    "name": "American Express",
+    "sector": "Financial",
+    "websites": [
+      "https://about.americanexpress.com/en-us/newsroom",
+      "https://www.americanexpress.com/en-us/business/trends-and-insights"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "payments"
+    ]
+  },
+  {
+    "name": "Capital One",
+    "sector": "Financial",
+    "websites": [
+      "https://www.capitalone.com/about/newsroom",
+      "https://www.capitalone.com/tech"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "digital banking"
+    ]
+  },
+  {
+    "name": "Charles Schwab",
+    "sector": "Financial",
+    "websites": [
+      "https://www.aboutschwab.com/news-and-media",
+      "https://www.schwab.com/resource-center/insights"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "investment technology"
+    ]
+  },
+  {
+    "name": "BlackRock",
+    "sector": "Financial",
+    "websites": [
+      "https://www.blackrock.com/corporate/newsroom",
+      "https://www.blackrock.com/corporate/insights"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "fintech",
+      "asset management"
+    ]
+  },
+  {
+    "name": "Amazon",
+    "sector": "Retail",
+    "websites": [
+      "https://press.aboutamazon.com",
+      "https://blog.aboutamazon.com"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "e-commerce",
+      "logistics AI"
+    ]
+  },
+  {
+    "name": "Walmart",
+    "sector": "Retail",
+    "websites": [
+      "https://corporate.walmart.com/news",
+      "https://corporate.walmart.com/purpose"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "retail technology",
+      "supply chain AI"
+    ]
+  },
+  {
+    "name": "Target",
+    "sector": "Retail",
+    "websites": [
+      "https://corporate.target.com/news-features",
+      "https://corporate.target.com/sustainability-governance"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "retail technology",
+      "customer experience"
+    ]
+  },
+  {
+    "name": "Home Depot",
+    "sector": "Retail",
+    "websites": [
+      "https://corporate.homedepot.com/news",
+      "https://corporate.homedepot.com/responsibility"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "retail technology",
+      "inventory management"
+    ]
+  },
+  {
+    "name": "Costco",
+    "sector": "Retail",
+    "websites": [
+      "https://www.costco.com/sustainability.html",
+      "https://investor.costco.com/news-releases"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "retail technology",
+      "warehouse optimization"
+    ]
+  },
+  {
+    "name": "CVS Health",
+    "sector": "Retail",
+    "websites": [
+      "https://www.cvshealth.com/news",
+      "https://www.cvshealth.com/impact"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "healthcare AI",
+      "pharmacy technology"
+    ]
+  },
+  {
+    "name": "Kroger",
+    "sector": "Retail",
+    "websites": [
+      "https://www.thekrogerco.com/news",
+      "https://www.thekrogerco.com/about-kroger/esg"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "retail technology",
+      "grocery innovation"
+    ]
+  },
+  {
+    "name": "Lowe's",
+    "sector": "Retail",
+    "websites": [
+      "https://newsroom.lowes.com",
+      "https://corporate.lowes.com/responsibility"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "retail technology",
+      "home improvement"
+    ]
+  },
+  {
+    "name": "Best Buy",
+    "sector": "Retail",
+    "websites": [
+      "https://corporate.bestbuy.com/news",
+      "https://corporate.bestbuy.com/purpose-and-impact"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "consumer electronics",
+      "tech retail"
+    ]
+  },
+  {
+    "name": "Starbucks",
+    "sector": "Retail",
+    "websites": [
+      "https://stories.starbucks.com",
+      "https://www.starbucks.com/responsibility"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "customer experience",
+      "mobile technology"
+    ]
+  },
+  {
+    "name": "Disney",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://thewaltdisneycompany.com/news",
+      "https://impact.disney.com"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "content creation",
+      "streaming technology"
+    ]
+  },
+  {
+    "name": "Netflix",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://about.netflix.com/en/news",
+      "https://research.netflix.com"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "content recommendation",
+      "streaming AI"
+    ]
+  },
+  {
+    "name": "Comcast",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://corporate.comcast.com/news-information",
+      "https://corporate.comcast.com/impact"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "telecommunications",
+      "media technology"
+    ]
+  },
+  {
+    "name": "Warner Bros Discovery",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://www.wbd.com/newsroom",
+      "https://www.wbd.com/responsibility"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "content creation",
+      "streaming platforms"
+    ]
+  },
+  {
+    "name": "Sony Pictures",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://www.sonypictures.com/corp/press_releases.html",
+      "https://www.sony.com/en/SonyInfo/News"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "entertainment technology",
+      "content production"
+    ]
+  },
+  {
+    "name": "ViacomCBS (Paramount)",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://www.paramount.com/news",
+      "https://www.paramount.com/inclusion"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "content creation",
+      "broadcasting technology"
+    ]
+  },
+  {
+    "name": "NBCUniversal",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://www.nbcuniversal.com/news",
+      "https://www.nbcuniversal.com/responsibility"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "broadcasting",
+      "streaming technology"
+    ]
+  },
+  {
+    "name": "Fox Corporation",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://www.foxcorporation.com/news",
+      "https://www.foxcorporation.com/responsibility"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "news technology",
+      "broadcasting innovation"
+    ]
+  },
+  {
+    "name": "Spotify",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://newsroom.spotify.com",
+      "https://investors.spotify.com/home/default.aspx"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "music recommendation",
+      "audio technology"
+    ]
+  },
+  {
+    "name": "Electronic Arts",
+    "sector": "Media & Entertainment",
+    "websites": [
+      "https://www.ea.com/news",
+      "https://www.ea.com/commitments"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "AI",
+      "GenAI",
+      "generative AI",
+      "automation",
+      "gaming AI",
+      "procedural generation"
+    ]
+  }
+]
