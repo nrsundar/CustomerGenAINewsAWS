@@ -237,7 +237,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - OpenAI for GPT-4o API
 - AWS for serverless infrastructure
 - Trafilatura for content extraction
-- All corporate websites for authentic GenAI content
+- All corporate public websites for authentic GenAI related news/content
 
 ## 📞 Support
 
