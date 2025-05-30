@@ -186,14 +186,6 @@ name,sector,website,keywords
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-## 🙏 Acknowledgments
-
-- OpenAI for GPT-4o API
-- AWS for serverless infrastructure
-- Trafilatura for content extraction
-- All corporate public websites for authentic GenAI related news/content
-
 ## 📞 Support
 
 If you encounter any issues or have questions:
