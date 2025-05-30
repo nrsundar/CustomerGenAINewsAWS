@@ -227,26 +227,6 @@ name,sector,website,keywords
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-**nrsundar**
-- GitHub: [@nrsundar](https://github.com/nrsundar)
-
-## 🙏 Acknowledgments
-
-- OpenAI for GPT-4o API
-- AWS for serverless infrastructure
-- Trafilatura for content extraction
-- All corporate websites for authentic GenAI content
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [troubleshooting guide](docs/troubleshooting.md)
-2. Open an issue on GitHub
-3. Review existing discussions
-
 ---
 
 **Built with ❤️ for tracking authentic corporate GenAI developments**
