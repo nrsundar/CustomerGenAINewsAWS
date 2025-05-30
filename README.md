@@ -34,7 +34,7 @@ An advanced Python-powered GenAI content monitoring system that tracks and analy
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/nrsundar/CustomerGenAINews.git
+git clone https://github.com/nrsundar/CustomerGenAINewsAWS.git
 cd CustomerGenAINews
 
 # 2. Deploy to AWS using CloudFormation
@@ -57,7 +57,7 @@ aws cloudformation describe-stacks \
 
 ```bash
 # 1. Clone and setup
-git clone https://github.com/nrsundar/CustomerGenAINews.git
+git clone https://github.com/nrsundar/CustomerGenAINewsAWS.git
 cd CustomerGenAINews
 
 # 2. Install dependencies
