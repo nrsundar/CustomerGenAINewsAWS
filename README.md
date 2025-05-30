@@ -186,10 +186,6 @@ name,sector,website,keywords
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-**nrsundar**
-- GitHub: [@nrsundar](https://github.com/nrsundar)
 
 ## 🙏 Acknowledgments
 
