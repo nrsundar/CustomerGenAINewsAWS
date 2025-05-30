@@ -149,27 +149,6 @@ name,sector,website,keywords
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 📈 Cost Analysis
-
-### AWS Serverless Costs (Monthly)
-
-| Service | Cost |
-|---------|------|
-| RDS PostgreSQL (t3.micro) | $13-15 |
-| Lambda Executions | $3-5 |
-| CloudFront CDN | $2-3 |
-| S3 Storage | $1-2 |
-| EventBridge + Secrets | $1 |
-| **Total** | **$21-28** |
-
-### OpenAI API Costs
-
-- **Monitoring**: ~$5-10/month (GPT-4o for content analysis)
-- **Summarization**: ~$3-5/month (article summaries)
-- **Total**: ~$8-15/month
-
-**Total Monthly Cost: $29-43**
-
 ## 🔐 Security Features
 
 - **Authentication**: Admin panel with username/password protection
