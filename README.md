@@ -1,6 +1,6 @@
 # CustomerGenAINews
 
-An advanced Python-powered GenAI content monitoring system that tracks and analyzes AI developments across top companies in financial, retail, and media & entertainment sectors.
+Python-powered GenAI content monitoring system that tracks and analyzes AI developments across top companies in financial, retail, and media & entertainment sectors.
 
 ![Dashboard Preview](docs/images/dashboard-preview.png)
 
@@ -149,26 +149,6 @@ name,sector,website,keywords
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 📈 Cost Analysis
-
-### AWS Serverless Costs (Monthly)
-
-| Service | Cost |
-|---------|------|
-| RDS PostgreSQL (t3.micro) | $13-15 |
-| Lambda Executions | $3-5 |
-| CloudFront CDN | $2-3 |
-| S3 Storage | $1-2 |
-| EventBridge + Secrets | $1 |
-| **Total** | **$21-28** |
-
-### OpenAI API Costs
-
-- **Monitoring**: ~$5-10/month (GPT-4o for content analysis)
-- **Summarization**: ~$3-5/month (article summaries)
-- **Total**: ~$8-15/month
-
-**Total Monthly Cost: $29-43**
 
 ## 🔐 Security Features
 
@@ -227,6 +207,27 @@ name,sector,website,keywords
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
+## 🙏 Acknowledgments
+
+- OpenAI
+- AWS for serverless infrastructure
+- Trafilatura for content extraction
+- All corporate websites for authentic GenAI content
+
+## 📞 Support
+
+If you encounter any issues or have questions:
+
+1. Check the [troubleshooting guide](docs/troubleshooting.md)
+2. Open an issue on GitHub
+3. Review existing discussions
+
+## 📋 Disclaimer
+
+This project is provided for educational and research purposes only. Web scraping activities comply with robots.txt protocols and respect rate limiting. The system monitors publicly available corporate news and press releases. Users are responsible for ensuring compliance with applicable terms of service and regulations. Consider using official APIs where available for production use.
+
+**Data Sources:** All content is sourced from publicly accessible corporate websites, investor relations pages, and official company announcements.
+
 ---
 
-**Built with ❤️ for tracking authentic corporate GenAI developments**
