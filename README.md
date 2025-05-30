@@ -1,197 +1,187 @@
-# CustomerGenAINews
+# Amazon Fake Product Detector
 
-An advanced Python-powered GenAI content monitoring system that tracks and analyzes AI developments across top companies in financial, retail, and media & entertainment sectors.
+A powerful tool for detecting potentially counterfeit Amazon products using AI techniques and similarity analysis.
 
-![Dashboard Preview](docs/images/dashboard-preview.png)
+## Features
 
-## 🚀 Features
+### Core Functionality
+- **Amazon URL Analysis**: Directly analyze products by entering Amazon product URLs
+- **Manual Product Entry**: Enter product details manually for comprehensive analysis
+- **Real-time Web Scraping**: Automatically extracts product information from Amazon pages using advanced scraping techniques
+- **Authenticity Scoring**: Provides quantitative authenticity assessment with detailed reasoning
 
-- **Multi-Sector Monitoring**: Track 30+ corporate websites across Financial, Retail, and Media & Entertainment sectors
-- **Real-Time AI Detection**: Intelligent content filtering using OpenAI-powered analysis
-- **Professional Dashboard**: Comprehensive tracking with authentication and insights
-- **Automated Scheduling**: Daily monitoring with email notifications
-- **Serverless Architecture**: Deploy to AWS Lambda with RDS PostgreSQL
-- **Vector Database Tracking**: Monitor pgvector adoption across companies
-- **Authentic Data**: Real corporate GenAI announcements and developments
+### Advanced AI Capabilities
+- **Agentic AI Workflow**: Uses LangChain to create an intelligent agent that orchestrates the entire analysis process
+- **Vector Database Search**: Employs PostgreSQL with pgvector extension for semantic similarity search across product databases
+- **Intelligent Product Comparison**: AI agent automatically finds and compares similar products to detect anomalies
+- **Multi-factor Analysis**: Agent considers price patterns, brand consistency, description quality, and similarity to known products
 
-## 📊 Supported Companies
+### Data Intelligence Features
+- **Vector Embeddings**: Converts product descriptions into high-dimensional vectors for semantic understanding
+- **Similarity Detection**: Finds products with similar characteristics using cosine similarity in vector space
+- **Pattern Recognition**: Identifies suspicious pricing, description patterns, and brand inconsistencies
+- **Live Data Import**: Import and analyze real product data from Amazon for building comparison database
 
-### Financial Sector (10 companies)
-- JPMorgan Chase, Bank of America, Wells Fargo, Goldman Sachs, Morgan Stanley
-- Citigroup, American Express, Charles Schwab, US Bancorp, Truist Financial
+### User Experience
+- **Interactive Dashboard**: Clean Streamlit interface with tabbed navigation
+- **Recent Analysis History**: Track previously analyzed products with verification status
+- **Detailed Reasoning**: AI agent provides clear explanations for authenticity decisions
+- **Visual Analytics**: Charts and metrics showing product comparison results
 
-### Retail Sector (10 companies)  
-- Walmart, Target, The Home Depot, Costco, Kroger
-- Lowe's, Best Buy, TJX Companies, Macy's, Dollar Tree
+## Technology Stack
 
-### Media & Entertainment (10 companies)
-- Disney, Netflix, Comcast, Warner Bros Discovery, Paramount Global
-- Fox Corporation, Sony Pictures, AMC Entertainment, Live Nation, Spotify
+### AI & Machine Learning
+- **Agentic AI**: LangChain-powered intelligent agent for autonomous product analysis
+- **Vector Database**: PostgreSQL with pgvector extension for high-performance semantic search
+- **Text Embeddings**: Advanced text vectorization for semantic understanding of product descriptions
+- **Pattern Analysis**: AI-driven detection of counterfeit product indicators
 
-## 🛠 Quick Start
+### Data Processing
+- **Web Scraping**: Trafilatura for robust extraction of product data from Amazon
+- **Real-time Analysis**: Live processing of product information with immediate results
+- **Vector Operations**: Efficient similarity calculations using cosine distance in vector space
 
-### Option 1: AWS Serverless Deployment (Recommended)
+### Infrastructure
+- **Frontend**: Streamlit for responsive web interface
+- **Database**: PostgreSQL with vector extension for scalable data storage
+- **Analysis Engine**: LangChain orchestration for complex AI workflows
+
+## Quick Start
+
+### 1. Local Development
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/amazon-fake-detector.git
+   cd amazon-fake-detector
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements_github.txt
+   ```
+
+3. Set up environment variables:
+   ```bash
+   export PGHOST=your_postgres_host
+   export PGDATABASE=your_database_name
+   export PGUSER=your_username
+   export PGPASSWORD=your_password
+   export PGPORT=5432
+   ```
+
+4. Run the application:
+   ```bash
+   streamlit run main.py
+   ```
+
+### 2. GitHub Hosting Setup
+
+Follow these steps to host your project on GitHub and deploy it:
+
+#### Step 1: Create GitHub Repository
+
+1. Go to [GitHub](https://github.com) and create a new repository
+2. Name it `amazon-fake-detector`
+3. Set it to public
+4. Don't initialize with README (we have one)
+
+#### Step 2: Upload Project Files
+
+Download these files from your Replit project:
+
+**Core Application Files:**
+- `main.py` - Main Streamlit application
+- `config.yaml` - Configuration file
+- `requirements_github.txt` - Python dependencies (rename to `requirements.txt`)
+
+**Model Files:**
+- `models/embedding_model.py` - Text embedding functionality
+- `models/llm_loader.py` - Language model simulation
+
+**Backend Files:**
+- `backend/database.py` - Database operations
+- `backend/agent.py` - Product analysis agent
+- `backend/product_search.py` - Product search functionality
+- `backend/amazon_scraper.py` - Amazon web scraping
+
+**Configuration Files:**
+- `prompts/fake_product_prompt.py` - Analysis prompts
+- `data/sample_products.csv` - Sample product data
+
+**Deployment Files:**
+- `.streamlit/config.toml` - Streamlit configuration
+- `.gitignore` - Git ignore rules
+- `runtime.txt` - Python version specification
+- `setup.sh` - Setup script for deployment
+
+#### Step 3: Push to GitHub
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/nrsundar/CustomerGenAINewsAWS.git
-cd CustomerGenAINews
-
-# 2. Deploy to AWS using CloudFormation
-aws cloudformation create-stack \
-  --stack-name customer-genai-news \
-  --template-body file://aws-deployment.yaml \
-  --parameters \
-    ParameterKey=OpenAIAPIKey,ParameterValue=YOUR_OPENAI_KEY \
-    ParameterKey=DBPassword,ParameterValue=SecurePass123! \
-  --capabilities CAPABILITY_IAM
-
-# 3. Get your dashboard URL
-aws cloudformation describe-stacks \
-  --stack-name customer-genai-news \
-  --query 'Stacks[0].Outputs[?OutputKey==`CloudFrontURL`].OutputValue' \
-  --output text
+git init
+git add .
+git commit -m "Initial commit: Amazon Fake Product Detector"
+git branch -M main
+git remote add origin https://github.com/yourusername/amazon-fake-detector.git
+git push -u origin main
 ```
 
-### Option 2: Local Development
+### 3. Deployment Options
 
-```bash
-# 1. Clone and setup
-git clone https://github.com/nrsundar/CustomerGenAINewsAWS.git
-cd CustomerGenAINews
+#### Option A: Streamlit Cloud (Free)
 
-# 2. Install dependencies
-pip install -r requirements.txt
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Connect your GitHub account
+3. Select your repository
+4. Set the main file path: `main.py`
+5. Add environment variables in the Secrets section:
+   ```toml
+   PGHOST = "your_postgres_host"
+   PGDATABASE = "your_database_name"
+   PGUSER = "your_username"
+   PGPASSWORD = "your_password"
+   PGPORT = "5432"
+   ```
 
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your OpenAI API key and database settings
+#### Option B: Heroku
 
-# 4. Run setup
-python setup.py
+1. Create a Heroku account
+2. Install Heroku CLI
+3. Create a new app: `heroku create your-app-name`
+4. Add PostgreSQL addon: `heroku addons:create heroku-postgresql:hobby-dev`
+5. Deploy: `git push heroku main`
 
-# 5. Start the web server
-python enhanced_web_server.py
+#### Option C: Railway
+
+1. Go to [railway.app](https://railway.app)
+2. Connect GitHub repository
+3. Add PostgreSQL database
+4. Set environment variables
+5. Deploy automatically
+
+## Usage
+
+1. **Initialize Database**: Click the button in the sidebar to set up database tables
+2. **Import Sample Data**: Use either CSV data or live Amazon data
+3. **Analyze Products**: 
+   - Use the "Amazon URL" tab to analyze by URL
+   - Use the "Manual Entry" tab for custom input
+4. **Review Results**: See authenticity scores, reasoning, and similar products
+
+## Database Setup
+
+For production deployment, you'll need a PostgreSQL database with pgvector extension:
+
+```sql
+CREATE EXTENSION vector;
 ```
 
-Visit `http://localhost:5000` to access your dashboard.
+## Configuration
 
-## 🔧 Configuration
+Update `config.yaml` with your specific settings:
+- Database connection details
+- LLM model preferences
+- Application settings
 
-### Environment Variables
+## Project Structure
 
-Create a `.env` file with the following configuration:
-
-```env
-# OpenAI Configuration
-OPENAI_API_KEY=your_openai_api_key_here
-
-# Database Configuration (PostgreSQL recommended)
-DATABASE_URL=postgresql://user:password@localhost:5432/genai_monitor
-
-# Web Server Configuration
-WEB_SERVER_PORT=5000
-WEB_SERVER_HOST=0.0.0.0
-
-# Admin Authentication
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD=genai2025
-
-# Monitoring Configuration
-MONITORING_SCHEDULE=daily
-EMAIL_NOTIFICATIONS=true
-
-# Email Configuration (optional)
-SMTP_SERVER=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USERNAME=your_email@gmail.com
-SMTP_PASSWORD=your_app_password
-```
-
-### Company Management
-
-Add custom companies via the admin panel or CSV import:
-
-```csv
-name,sector,website,keywords
-"Custom Corp","Technology","https://example.com/news","AI,machine learning"
-```
-
-## 🏗 Architecture
-
-### Serverless AWS Architecture
-
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   EventBridge   │───▶│  Lambda Monitor  │───▶│  RDS PostgreSQL │
-│  (Daily Cron)   │    │  (Content Scrape)│    │   (Articles)    │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                                │
-                                ▼
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   CloudFront    │◄───│  Lambda Dashboard│◄───│  Secrets Manager│
-│     (CDN)       │    │   (Web Server)   │    │  (API Keys)     │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-```
-
-### Local Development Architecture
-
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Scheduler     │───▶│   Web Scraper    │───▶│   PostgreSQL    │
-│  (schedule.py)  │    │  (scraper.py)    │    │   Database      │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                                │
-                                ▼
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Dashboard     │◄───│   AI Processor   │◄───│   OpenAI API    │
-│(web_server.py)  │    │(ai_processor.py) │    │  (GPT-4o)       │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-```
-
-## 🔐 Security Features
-
-- **Authentication**: Admin panel with username/password protection
-- **API Key Security**: Stored in AWS Secrets Manager
-- **Database Encryption**: RDS encryption at rest
-- **HTTPS**: CloudFront SSL/TLS termination
-- **VPC Isolation**: Lambda functions in private subnets
-
-## 📊 Dashboard Features
-
-- **Real-time Monitoring**: Live corporate GenAI announcements
-- **Sector Analysis**: Financial, Retail, Media & Entertainment insights
-- **Trend Tracking**: Vector database adoption monitoring
-- **Article Management**: Import/export capabilities
-- **Authentication**: Secure admin access
-- **Responsive Design**: Mobile-friendly interface
-
-## 📚 Documentation
-
-- [Installation Guide](docs/installation.md)
-- [Configuration Reference](docs/configuration.md)
-- [API Documentation](docs/api.md)
-- [Deployment Guide](docs/deployment.md)
-- [Troubleshooting](docs/troubleshooting.md)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [troubleshooting guide](docs/troubleshooting.md)
-2. Open an issue on GitHub
-3. Review existing discussions
-
----
