@@ -166,26 +166,6 @@ name,sector,website,keywords
 - **Authentication**: Secure admin access
 - **Responsive Design**: Mobile-friendly interface
 
-## 🚀 Deployment Options
-
-### 1. AWS Serverless (Recommended)
-- **Cost**: $21-28/month
-- **Scalability**: Auto-scaling
-- **Reliability**: 99.99% uptime
-- **Setup Time**: 15 minutes
-
-### 2. Local Development
-- **Cost**: $0 (infrastructure)
-- **Scalability**: Single machine
-- **Reliability**: Dependent on local setup
-- **Setup Time**: 5 minutes
-
-### 3. Docker Deployment
-- **Cost**: Variable (hosting dependent)
-- **Scalability**: Container-based
-- **Reliability**: Good
-- **Setup Time**: 10 minutes
-
 ## 📚 Documentation
 
 - [Installation Guide](docs/installation.md)
